@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: #f7f9fc;
+    overflow-x: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f39c12;
+    transform: translateY(-3px);
+  }
+  
+  main {
+    margin-top: 80px; /* Adjust based on header height */
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+    position: relative;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #f39c12;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+  
+  /* Responsive Layout */
+  @media
+  

@@ -1,0 +1,28 @@
+#contact {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: #3498db;
+  }
+  
+  #contact p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
+  
+  #contact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  

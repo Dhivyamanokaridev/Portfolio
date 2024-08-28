@@ -1,0 +1,17 @@
+#about {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #about h2 {
+    color: #3498db;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
